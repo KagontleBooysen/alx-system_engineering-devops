@@ -13,8 +13,8 @@ frontend http-in
 
 backend servers
   balance roundrobin
-  server web-01 97533-web-01:80 check
-  server web-02 97533-web-02:80 check
+  server 97533-web-01 52.72.30.55:80 check
+  server 97533-web-01 34.204.81.29:80 check
 EOF
 
 # Make sure that HAproxy can be managed via an init script
